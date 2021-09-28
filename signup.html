@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <script defer src="sign_up.js"></script>
+    <title>CSS Form</title>
+  </head>
+
+  <body id="body">
+    <div class="container">
+      <form
+        action="./index.html"
+        method="POST"
+        class="content"
+        id="signup-form"
+      >
+        <h1 id="say-hello">Signup</h1>
+        <div>
+          <div class="name">
+            <label for="name">Your Name</label><br />
+            <input class="fld" placeholder="Enter your name" id="name" />
+          </div>
+
+          <div class="email">
+            <label for="email">Email</label><br />
+            <input
+              class="fld"
+              placeholder="Enter your email address"
+              id="email"
+              name="email"
+            />
+          </div>
+
+          <div class="name">
+            <label for="name">Password</label><br />
+            <input
+              type="password"
+              class="fld"
+              placeholder="Enter Password"
+              id="password"
+            />
+          </div>
+
+          <div class="name">
+            <label for="name">Comfirm password</label><br />
+            <input
+              type="password"
+              class="fld"
+              placeholder="Enter Confirm password"
+              id="c_password"
+            />
+          </div>
+        </div>
+
+        <button class="btn" type="submit" id="signup-form-submit">
+          Sign Up &#129046;
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
